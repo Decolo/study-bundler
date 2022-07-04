@@ -1,0 +1,26 @@
+{
+  "name": "my-babel-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node -r ts-node/register ./es6_to_es5.ts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/generator": "^7.18.7",
+    "@babel/parser": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/traverse": "^7.18.6",
+    "@types/babel__core": "^7.1.19",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__traverse": "^7.17.1",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
